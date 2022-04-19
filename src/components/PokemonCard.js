@@ -63,7 +63,7 @@ const styles = StyleSheet.create({
         paddingTop: 10,
     },
     image: {
-        position: "relative",
+        position: "absolute",
         bottom: 2,
         right: 2,
         width: 90,
