@@ -9,7 +9,8 @@ export default function PokedexNavigation() {
     return (
         <Stack.Navigator initialRouteName='Pokedex'>
             <Stack.Screen name='Pokedex' component={PokedexScreen} options={{
-                title: "Pokedex"
+                title: "",
+                headerTransparent:true,
             }} />
             <Stack.Screen name='Pokemon' component={PokedexScreen} options={{
                 title: "Pokemon"
